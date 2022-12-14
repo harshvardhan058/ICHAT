@@ -103,7 +103,7 @@
   },
   "scripts": {
     "start": "node server",
-    "build": "react-scripts build",
+    "build": "node server build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "nodemon server"
