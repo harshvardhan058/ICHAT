@@ -2,8 +2,8 @@ const path = require("path");
 const http = require("http");
 const express = require("express");
 const { Server } = require("socket.io");
-const formatMessage = require("./utils/messages");
-const { userJoin , getCurrentUser , userLeave , getRoomUsers} = require("./utils/Users");
+const formatMessage = require(".messages");
+const { userJoin , getCurrentUser , userLeave , getRoomUsers} = require(".Users");
 
 
 const app = express();
